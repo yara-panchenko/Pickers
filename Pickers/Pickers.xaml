@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pickers.Pickers">
+    <ContentPage.Content>
+        <StackLayout>
+            <Picker x:Name="uezd"
+                Title="Выберите уезд"
+                TitleColor="Red"
+                SelectedIndexChanged="uezd_SelectedIndexChanged">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Валгамаа</x:String>
+                        <!--0-->
+                        <x:String>Вильяндимаа</x:String>
+                        <!--1-->
+                        <x:String>Вырумаа</x:String>                        
+                        <!--2-->
+                        <x:String>Ида-Вирумаа</x:String>                        
+                        <!--3-->
+                        <x:String>Йыгевамаа</x:String>                        
+                        <!--4-->
+                        <x:String>Ляэне-Вирумаа</x:String>                        
+                        <!--5-->
+                        <x:String>Ляэнемаа</x:String>                       
+                        <!--6-->
+                        <x:String>Пылвамаа</x:String>                        
+                        <!--7-->
+                        <x:String>Пярнумаа</x:String>                        
+                        <!--8-->
+                        <x:String>Рапламаа</x:String>                        
+                        <!--9-->
+                        <x:String>Сааремаа</x:String>                        
+                        <!--10-->
+                        <x:String>Тартумаа</x:String>                        
+                        <!--11-->
+                        <x:String>Харьюмаа</x:String>                        
+                        <!--12-->
+                        <x:String>Хийумаа</x:String>                        
+                        <!--13-->
+                        <x:String>Ярвамаа</x:String>                        
+                        <!--14-->
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker x:Name="city"
+                    Title="Выберите столицу"
+                    SelectedIndexChanged="city_SelectedIndexChanged"
+                TitleColor="Blue">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Валга</x:String>
+                        <!--0-->
+                        <x:String>Вильянди</x:String>
+                        <!--1-->
+                        <x:String>Выру</x:String>
+                        <!--2-->
+                        <x:String>Йыхви</x:String>
+                        <!--3-->
+                        <x:String>Йыгева</x:String>
+                        <!--4-->
+                        <x:String>Раквере</x:String>
+                        <!--5-->
+                        <x:String>Хаапсалу</x:String>
+                        <!--6-->
+                        <x:String>Пылвам</x:String>
+                        <!--7-->
+                        <x:String>Пярну</x:String>
+                        <!--8-->
+                        <x:String>Рапла</x:String>
+                        <!--9-->
+                        <x:String>Курессааре</x:String>
+                        <!--10-->
+                        <x:String>Тарту</x:String>
+                        <!--11-->
+                        <x:String>Таллин</x:String>
+                        <!--12-->
+                        <x:String>Кярдла</x:String>
+                        <!--13-->
+                        <x:String>Пайде</x:String>
+                        <!--14-->
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Image Source=""/>
+            <Entry x:Name="entry"
+                   Text=""/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

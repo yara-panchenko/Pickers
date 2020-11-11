@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pickers.Android", "Pickers.Android\Pickers.Android.csproj", "{57F715DD-D735-4DF7-AB80-18F13BA35F93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pickers", "Pickers\Pickers.csproj", "{56F09E84-D8A8-4780-96DE-BCD559C90365}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0DEA5044-0F75-46A1-8054-968FAAE13CD9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\harju.png = ..\..\..\Desktop\harju.png
+		..\..\..\Desktop\hiiu.png = ..\..\..\Desktop\hiiu.png
+		..\..\..\Desktop\ida.png = ..\..\..\Desktop\ida.png
+		..\..\..\Desktop\jarve.png = ..\..\..\Desktop\jarve.png
+		..\..\..\Desktop\joge.png = ..\..\..\Desktop\joge.png
+		..\..\..\Desktop\lae.png = ..\..\..\Desktop\lae.png
+		..\..\..\Desktop\laev.png = ..\..\..\Desktop\laev.png
+		..\..\..\Desktop\parnu.png = ..\..\..\Desktop\parnu.png
+		..\..\..\Desktop\polva.png = ..\..\..\Desktop\polva.png
+		..\..\..\Desktop\rapla.png = ..\..\..\Desktop\rapla.png
+		..\..\..\Desktop\saare.png = ..\..\..\Desktop\saare.png
+		..\..\..\Desktop\tartu.png = ..\..\..\Desktop\tartu.png
+		..\..\..\Desktop\valga.png = ..\..\..\Desktop\valga.png
+		..\..\..\Desktop\vilja.png = ..\..\..\Desktop\vilja.png
+		..\..\..\Desktop\voru.png = ..\..\..\Desktop\voru.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57F715DD-D735-4DF7-AB80-18F13BA35F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F715DD-D735-4DF7-AB80-18F13BA35F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F715DD-D735-4DF7-AB80-18F13BA35F93}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{57F715DD-D735-4DF7-AB80-18F13BA35F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F715DD-D735-4DF7-AB80-18F13BA35F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F715DD-D735-4DF7-AB80-18F13BA35F93}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{56F09E84-D8A8-4780-96DE-BCD559C90365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F09E84-D8A8-4780-96DE-BCD559C90365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F09E84-D8A8-4780-96DE-BCD559C90365}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{56F09E84-D8A8-4780-96DE-BCD559C90365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F09E84-D8A8-4780-96DE-BCD559C90365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F09E84-D8A8-4780-96DE-BCD559C90365}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0850F817-07AE-4684-9DEB-A7873319392F}
+	EndGlobalSection
+EndGlobal
